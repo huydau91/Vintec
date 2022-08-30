@@ -181,7 +181,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .carousel-item {
-    height: 300px;
+    height: 150px;
   }
   .caption {
     font-size: 1rem;

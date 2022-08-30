@@ -7,6 +7,10 @@
   background-image: url(../src/img/bg-img-1.png);
 }
 
+.banner-wrapper {
+  margin-bottom: 4rem;
+}
+
 .parallax-wrapper .portfolio-item-wrapper,
 .banner-wrapper .portfolio-item-wrapper {
   text-align: center;
@@ -104,4 +108,22 @@
 
 .footer-wrapper .footer-info .title {
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .parallax-wrapper .thumb {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .parallax-wrapper .thumb {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .parallax-wrapper .thumb {
+    height: 150px;
+  }
 }
